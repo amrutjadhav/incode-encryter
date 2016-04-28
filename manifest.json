@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Incode Encrypter",
+  "description": "The best way to secure your secured data.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "choose.html"
+  },
+  "permissions": [
+    "activeTab",
+     "contextMenus",
+    "https://ajax.googleapis.com/"
+  ],
+  "background":{
+  "scripts": ["background.js"]
+}
+}
